@@ -3,6 +3,8 @@
 h1 {
   font-family: "Cinzel", serif;
   text-align: center;
+  color: #f5cb5c;
+  background-color: #242423;
 }
 h2,
 h3,
@@ -15,4 +17,8 @@ p,
 a,
 li {
   font-family: "Orbitron", sans-serif;
+}
+
+.body {
+  background-color: white;
 }

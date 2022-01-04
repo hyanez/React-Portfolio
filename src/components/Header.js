@@ -7,6 +7,7 @@ import Resume from "../pages/Resume";
 
 export default function Header() {
   const [currentPage, setCurrentPage] = useState("About");
+
   const renderPage = () => {
     if (currentPage === "About") {
       return <About />;
@@ -21,7 +22,9 @@ export default function Header() {
       return <Resume />;
     }
   };
+
   const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <div>
       <h1>Hugo Yanez Portfolio</h1>
@@ -29,7 +32,7 @@ export default function Header() {
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
-      {renderPage}
+      {renderPage()}
     </div>
   );
 }

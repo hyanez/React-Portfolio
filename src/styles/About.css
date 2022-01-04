@@ -1,0 +1,24 @@
+.about-title {
+  text-align: center;
+  font-size: 40px;
+  background-color: #333533;
+  color: #f5cb5c;
+}
+
+.about-card {
+  background-color: #333533;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  color: #f5cb5c;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px#f5cb5c;
+}

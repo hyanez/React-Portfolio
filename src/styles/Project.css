@@ -1,0 +1,30 @@
+.first-proj {
+  width: 18rem;
+  border: 2px dotted red;
+}
+.second-proj {
+  width: 18rem;
+  border: 2px dotted red;
+}
+.third-proj {
+  width: 18rem;
+  border: 2px dotted red;
+}
+.fourth-proj {
+  width: 18rem;
+  border: 2px dotted red;
+}
+.fifth-proj {
+  width: 18rem;
+  border: 2px dotted red;
+}
+.project-header {
+  background-color: #333533;
+}
+
+.project-section {
+  background-color: #333533;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
