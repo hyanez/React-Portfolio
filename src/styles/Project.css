@@ -1,23 +1,50 @@
+.proj-title {
+  text-align: center;
+  font-size: 40px;
+  background-color: #333533;
+  color: #f5cb5c;
+}
+
+.proj-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px#f5cb5c;
+}
+
 .first-proj {
   width: 18rem;
-  border: 2px dotted red;
+  border: 2px solid #f5cb5c;
+  margin: 30px;
+  padding: 10px;
 }
 .second-proj {
   width: 18rem;
-  border: 2px dotted red;
+  border: 2px solid #f5cb5c;
+  margin: 30px;
+  padding: 10px;
 }
 .third-proj {
   width: 18rem;
-  border: 2px dotted red;
+  border: 2px solid #f5cb5c;
+  margin: 30px;
+  padding: 10px;
 }
 .fourth-proj {
   width: 18rem;
-  border: 2px dotted red;
+  border: 2px solid #f5cb5c;
+  margin: 30px;
+  padding: 10px;
 }
 .fifth-proj {
   width: 18rem;
-  border: 2px dotted red;
+  border: 2px solid #f5cb5c;
+  margin: 30px;
+  padding: 10px;
 }
+
 .project-header {
   background-color: #333533;
 }
