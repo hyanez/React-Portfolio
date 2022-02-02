@@ -3,8 +3,8 @@ import "../styles/Resume.css";
 
 export default function Resume() {
   return (
-    <div className="resume">
-      <div className="resumeCard">
+    <div class="resume">
+      <div class="resumeCard">
         <h2>Education</h2>
         <ul>
           <li>Fordham University '19, Bronx, NY</li>
@@ -14,13 +14,13 @@ export default function Resume() {
           </li>
         </ul>
       </div>
-      <div className="resumeCard">
+      <div class="resumeCard">
         <h2>Certificates</h2>
         <ul>
           <li>Columbia Engineering Coding Bootcamp, Columbia University '22</li>
         </ul>
       </div>
-      <div className="resumeCard">
+      <div class="resumeCard">
         <h2>Technical Skills</h2>
         <ul>
           <li>Javascript</li>

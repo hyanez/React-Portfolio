@@ -2,11 +2,17 @@ ul {
   list-style-type: none;
 }
 
+.resume {
+  background-color: #333533;
+  color: #f5cb5c;
+  padding: 5px;
+}
+
 .resumeCard {
-  border: 1px solid darkgray;
+  border: 1px solid #f5cb5c;
   border-radius: 5px;
   text-align: center;
   margin: 5%;
-  box-shadow: 5px 5px 5px darkgray;
-  background-color: rgb(254, 255, 255);
+  box-shadow: 5px 5px 5px #f5cb5c;
+  background-color: #333533;
 }
