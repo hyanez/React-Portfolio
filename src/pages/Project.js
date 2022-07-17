@@ -11,7 +11,7 @@ export default function Project() {
       <div class="proj-title">PROJECTS</div>
       <div class="project-section">
         <div class="first-proj">
-          <img src={foodE} alt="Ftns-Jnks Project" class="proj-photo"></img>
+          <img src={foodE} alt="FoodE Project" class="proj-photo"></img>
           <div class="card-body">
             <h5 class="card-title">FoodE</h5>
             <h6 class="card-subtitle mb-2 text-muted">
