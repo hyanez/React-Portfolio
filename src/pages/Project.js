@@ -5,6 +5,7 @@ import weatherDash from "../images/weather-dashboard-mockup-2.png";
 import foodE from "../images/FoodE-proj.png";
 import contextify from "../images/contextify-proj.png";
 import teamProfile from "../images/team-profile.png";
+import passGenerator from "../images/pass-generator.png";
 
 export default function Project() {
   return (
@@ -171,18 +172,32 @@ export default function Project() {
           </div>
         </div>
         <div class="sixth-proj">
+          <img
+            src={passGenerator}
+            alt="Password Generator"
+            class="proj-photo"
+          ></img>
           <div class="card-body">
-            <h5 class="card-title">PROJECT 6</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <h5 class="card-title">Password Generator</h5>
+            <h6 class="card-subtitle mb-2 text-muted">HTML / CSS / JS</h6>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              The following program generates a secure random password that
+              includes special characters, numbers, capital letters, and lower
+              case letters to provide greater security to sensitive data. This
+              program also uses JavaScript in addition to using arrays, strings,
+              fumctions and methods like .split() and .concat().
             </p>
             <div class="links">
-              <a href="#" class="card-link">
+              <a
+                href="https://hyanez.github.io/HW3-PASSWORD-GENERATOR/"
+                class="card-link"
+              >
                 Deployed Link
               </a>
-              <a href="#" class="card-link">
+              <a
+                href="https://github.com/hyanez/HW3-PASSWORD-GENERATOR"
+                class="card-link"
+              >
                 Github Link
               </a>
             </div>
