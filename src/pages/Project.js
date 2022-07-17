@@ -4,6 +4,7 @@ import ftnsJnks from "../images/ftns-jnks-demo.png";
 import weatherDash from "../images/weather-dashboard-mockup-2.png";
 import foodE from "../images/FoodE-proj.png";
 import contextify from "../images/contextify-proj.png";
+import teamProfile from "../images/team-profile.png";
 
 export default function Project() {
   return (
@@ -137,26 +138,41 @@ export default function Project() {
           </div>
         </div>
         <div class="fifth-proj">
+          <img
+            src={teamProfile}
+            alt="Team Profile Generator"
+            class="proj-photo"
+          ></img>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <h5 class="card-title">Team Profile Generator</h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              HTML /CSS / JS / Node.js
+            </h6>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              A program that builds a Node.js command-line application that
+              takes in information about employees on a software engineering
+              team, then generates an HTML webpage that displays summaries for
+              each person.
             </p>
             <div class="links">
-              <a href="#" class="card-link">
-                Card link
+              <a
+                href="https://watch.screencastify.com/v/dxQfH0Nml39GM7PzMZLF"
+                class="card-link"
+              >
+                Deployed Link
               </a>
-              <a href="#" class="card-link">
-                Another link
+              <a
+                href="https://github.com/hyanez/TEAM-PROFILE-GENERATOR"
+                class="card-link"
+              >
+                Github link
               </a>
             </div>
           </div>
         </div>
         <div class="sixth-proj">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">PROJECT 6</h5>
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
             <p class="card-text">
               Some quick example text to build on the card title and make up the
@@ -164,10 +180,10 @@ export default function Project() {
             </p>
             <div class="links">
               <a href="#" class="card-link">
-                Card link
+                Deployed Link
               </a>
               <a href="#" class="card-link">
-                Another link
+                Github Link
               </a>
             </div>
           </div>
