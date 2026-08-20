@@ -9,7 +9,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a className="navbar-brand" href="#about">
             Navbar
           </a>
           <button
