@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "../styles/Navigation.css";
 
 export default function Navigation({ currentPage, handlePageChange }) {
   /*class="nav-link active" aria-current="page" href="#"*/
@@ -8,13 +9,13 @@ export default function Navigation({ currentPage, handlePageChange }) {
 
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg navbar-dark portfolio-navbar">
+        <div className="container-fluid">
           <a className="navbar-brand" href="#about">
-            Navbar
+            Hugo Yanez
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -22,13 +23,13 @@ export default function Navigation({ currentPage, handlePageChange }) {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
                 <a
-                  class={
+                  className={
                     currentPage === "About"
                       ? "nav-link active minor"
                       : "nav-link minor"
@@ -39,9 +40,9 @@ export default function Navigation({ currentPage, handlePageChange }) {
                   About
                 </a>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
-                  class={
+                  className={
                     currentPage === "Project" ? "nav-link active" : "nav-link"
                   }
                   href="#projects"
@@ -50,9 +51,9 @@ export default function Navigation({ currentPage, handlePageChange }) {
                   Projects
                 </a>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
-                  class={
+                  className={
                     currentPage === "Resume" ? "nav-link active" : "nav-link"
                   }
                   href="#resume"
@@ -61,9 +62,9 @@ export default function Navigation({ currentPage, handlePageChange }) {
                   Resume
                 </a>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
-                  class={
+                  className={
                     currentPage === "Contact" ? "nav-link active" : "nav-link"
                   }
                   href="#contact"
